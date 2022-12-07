@@ -1,7 +1,8 @@
 library my_mvvm;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export './src/helpers/index.dart';
+export './src/reactive_services/index.dart';
+export './src/sigma_types/index.dart';
+export './src/view_model_builders/index.dart';
+export './src/view_models/index.dart';
+import 'package:provider/provider.dart';
